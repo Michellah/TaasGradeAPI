@@ -11,7 +11,7 @@
 	<groupId>com.taas</groupId>
 	<artifactId>TaasGradeApi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>TaasGradeApi</name>
+	<name>taasgradeapi</name>
 	<description>hackathon HEI</description>
 	<properties>
 		<java.version>17</java.version>
