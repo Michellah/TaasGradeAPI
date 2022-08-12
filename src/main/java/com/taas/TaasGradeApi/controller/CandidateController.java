@@ -15,7 +15,7 @@ public class CandidateController {
     private CandidateRepository Candidate_Repository;
 
 
-    @GetMapping("/1")
+    @GetMapping("/")
     public String hello(){
         return "Hello wolrd";
     }
