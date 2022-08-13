@@ -3,6 +3,7 @@ package com.taas.TaasGradeApi.model;
 import lombok.*;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 
 @Getter
@@ -12,7 +13,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "grade_french")
 
-public class Grade_french {
+public class Grade_french implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false)
